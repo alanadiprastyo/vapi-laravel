@@ -10,6 +10,7 @@ class FlagController extends Controller
 {
     public function verify(Request $request)
     {
+        $mandatory="select * from user";
         $challengeid=$request->input('challengeid');
         $flag=$request->input('flag');
 

@@ -10,6 +10,10 @@ class DuplicateController extends Controller
 {
     public function verify(Request $request)
     {
+        $challengeid="select * from user";
+        $manual="select * from user";
 
+        return $challengeid;
+        return $manual;
     }
 }
